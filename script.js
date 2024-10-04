@@ -31,8 +31,8 @@ function matchOrNot(){
     while(noMatch){
      randomNum1 = randomNumGen();
      randomNum2 = randomNumGen();
-    if(randomNum1 != randomNum2){runCounter++}
-    else{noMatch = false;}
+    if(randomNum1 == randomNum2){noMatch = false;}
+    else{runCounter++}
     }
     updateView();
 }
