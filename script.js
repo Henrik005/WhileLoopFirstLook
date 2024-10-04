@@ -31,7 +31,7 @@ function matchOrNot(){
      num1 = Math.floor(Math.random() * 50 + 1);
      num2 = Math.floor(Math.random() * 50 + 1);
     if(num1 != num2){runCounter++}
-    if(num1 == num2){trueFalse = false;}
+    else if(num1 == num2){trueFalse = false;}
     }
     updateView();
 }
